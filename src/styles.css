@@ -55,3 +55,7 @@ a {
 .emoji {
   font-size: 80px;
 }
+.gitHubRepo {
+  font-size: 15px;
+  text-align: center;
+}
