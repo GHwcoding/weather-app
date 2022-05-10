@@ -58,7 +58,7 @@ let form = document.querySelector("#enter-city");
 form.addEventListener("submit", handleSubmit);
 
 function showWeatherConditions(response) {
-  document.querySelector("#city-element").innerHTML = response.data.name;
+  document.querySelector("h1").innerHTML = response.data.name;
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
     "src",
