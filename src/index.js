@@ -38,7 +38,9 @@ let months = [
 let month = months[monthIndex];
 
 let dateElement = document.querySelector("#date");
-dateElement.innerHTML = `${day}, ${month} ${date} ${hour}:${minutes}`;
+dateElement.innerHTML = `${day}, ${month} ${date}`;
+let timeElement = document.querySelector("#time");
+timeElement.innerHTML = `Last Updated: ${hour}:${minutes}`;
 
 function search(city) {
   let unit = "imperial";
