@@ -49,8 +49,11 @@ a {
   font-size: 150px;
   padding: 0px;
 }
-.description {
-  font-size: 30px;
+.description:first-letter {
+  text-transform: capitalize;
+}
+.date {
+  margin-bottom: 0;
 }
 .emoji {
   font-size: 80px;
