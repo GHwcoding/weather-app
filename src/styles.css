@@ -56,6 +56,9 @@ a {
 .description:first-letter {
   text-transform: capitalize;
 }
+.description {
+  margin-top: 10px;
+}
 .weatherConditions {
   position: relative;
   top: 20px;
