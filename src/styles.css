@@ -1,6 +1,7 @@
 p {
   font-size: 20px;
   padding-left: 25px;
+  margin-bottom: 0;
 }
 
 ul {
@@ -9,10 +10,6 @@ ul {
 }
 a {
   text-decoration: none;
-}
-
-.cityName {
-  margin-bottom: 0;
 }
 .input-box {
   margin: 5px 5px 5px 20px;
@@ -29,10 +26,10 @@ a {
 .units {
   font-size: 20px;
   position: relative;
-  top: -17px;
+  top: -8px;
 }
 
-.row {
+.weatherForTheWeek {
   text-align: center;
 }
 .btn {
@@ -44,16 +41,16 @@ a {
 }
 .currentTemp {
   font-size: 45px;
-}
-.firstEmoji {
-  font-size: 150px;
-  padding: 0px;
+  padding-left: 25px;
+  position: relative;
+  top: 9px;
 }
 .description:first-letter {
   text-transform: capitalize;
 }
-.date {
-  margin-bottom: 0;
+.weatherConditions {
+  position: relative;
+  top: 20px;
 }
 .emoji {
   font-size: 80px;
