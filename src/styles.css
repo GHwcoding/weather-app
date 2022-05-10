@@ -21,7 +21,7 @@ a {
   border-radius: 10px;
   margin: 30px auto;
   padding: 20px;
-  width: 75%;
+  width: 600px;
 }
 .units {
   font-size: 20px;
@@ -34,6 +34,7 @@ a {
 }
 .btn {
   margin-top: 5px;
+  padding: 6px;
 }
 .column-search-button {
   padding-left: 25px;
