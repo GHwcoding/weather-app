@@ -64,6 +64,13 @@ a {
   position: relative;
   top: 20px;
 }
+.active {
+  color: black;
+}
+.active:hover {
+  cursor: default;
+  color: black;
+}
 .emoji {
   font-size: 80px;
 }
