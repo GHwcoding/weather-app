@@ -36,9 +36,6 @@ a {
   top: -8px;
 }
 
-.weatherForTheWeek {
-  text-align: center;
-}
 .btn {
   margin-top: 5px;
   margin-left: 10px;
@@ -71,9 +68,7 @@ a {
   cursor: default;
   color: black;
 }
-.emoji {
-  font-size: 80px;
-}
+
 .gitHubRepo {
   font-size: 15px;
   text-align: center;
