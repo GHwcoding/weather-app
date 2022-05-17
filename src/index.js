@@ -115,32 +115,8 @@ function showWeatherConditions(response) {
 
   getForecast(response.data.coord);
 }
-function displayCelciusTemp(event) {
-  event.preventDefault();
-  let celciusTemperature = ((fahrenheitTemperature - 32) * 5) / 9;
-  document.querySelector("#current-temp").innerHTML =
-    Math.round(celciusTemperature);
-  fahrenheitLink.classList.remove("active");
-  celciusLink.classList.add("active");
-}
-function displayFahrenheitTemp(event) {
-  event.preventDefault();
-  document.querySelector("#current-temp").innerHTML = Math.round(
-    fahrenheitTemperature
-  );
-  fahrenheitLink.classList.add("active");
-  celciusLink.classList.remove("active");
-}
-
-let fahrenheitTemperature = null;
 
 let form = document.querySelector("#enter-city");
 form.addEventListener("submit", handleSubmit);
-
-let celciusLink = document.querySelector("#celcius-link");
-celciusLink.addEventListener("click", displayCelciusTemp);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemp);
 
 search("San Francisco");

@@ -30,7 +30,7 @@ a {
   padding: 20px;
   width: 600px;
 }
-.units {
+.unit {
   font-size: 20px;
   position: relative;
   top: -8px;
@@ -60,13 +60,6 @@ a {
 .weatherConditions {
   position: relative;
   top: 20px;
-}
-.active {
-  color: #000;
-}
-.active:hover {
-  cursor: default;
-  color: #000;
 }
 .weather-forecast {
   text-align: center;
